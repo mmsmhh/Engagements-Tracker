@@ -1,0 +1,22 @@
+{
+  "name": "engagements-tracker",
+  "version": "1.0.0",
+  "description": "Conversations engagements tracker",
+  "main": "index.js",
+  "repository": "https://github.com/mmsmhh/Engagements-Tracker.git",
+  "author": "Mahmoud Saleh <mmsmhh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.939.0",
+    "dotenv": "^10.0.0",
+    "fs": "^0.0.1-security",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "clear-queues": "node clear-queues.js",
+    "manual-testing": "node manual-testing",
+    "automatic-testing": "node automatic-testing"
+  }
+}
