@@ -7,7 +7,7 @@ const {
 const { random, sleep, round } = require("./utils");
 const { sendMessage } = require("./sqs");
 
-const numberOfconversations = 5;
+const numberOfconversations = 50;
 
 const automaticTesting = async () => {
   console.log(`Generating ${numberOfconversations} conversations!`);

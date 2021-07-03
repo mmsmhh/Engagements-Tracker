@@ -22,6 +22,7 @@ const manualTesting = async () => {
     sum += conversationEnriched.total_engagements;
 
     await sendMessage(config.FIRST_QUEUE_URL, conversation);
+
     await sleep(random(1000, 5000));
   }
 

@@ -1,6 +1,5 @@
 const { aws } = require("./aws.js");
 const config = require("./configurations");
-const { sleep } = require("./utils");
 
 const sqs = new aws.SQS();
 
